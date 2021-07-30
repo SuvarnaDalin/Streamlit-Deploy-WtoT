@@ -35,7 +35,7 @@ def whiteToTransparent(white):
     return(img)
 
 #Title of the App
-st.title('WHITE TO TRANSPARENT BACKGROUD CONVERTER')
+st.title('WHITE TO TRANSPARENT BACKGROUND CONVERTER')
 
 # create image uploader
 img_data = st.file_uploader(label='Load Image For Conversion', type=['png', 'jpg'])
